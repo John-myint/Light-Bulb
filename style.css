@@ -17,7 +17,8 @@ body {
     width: 100px;
     height: 150px;
     background-color: #fff; /* White light bulb when off */
-    border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin: 20px auto;
     position: relative;
     transition: background-color 0.3s;
@@ -40,7 +41,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #007BFF;
     color: white;
     transition: background-color 0.3s;
